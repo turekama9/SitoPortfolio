@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">HOME</a>
+        <div class="nav-links">
+            <ul>
+                <li> <a href="#">Projects</a> </li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Contacts</a></li>
+            </ul>
+        </div>
+        <img src="../img\menu-btn.png" alt="" class="menu-hamburger">
+    </nav>
+    <div class="contatti">
+        <h2>Contact me!</h2>
+    <div class="container">
+        <form action="" class="row g-3">
+            <div class="col-md-6 ">
+                <label for="FirstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="FirstName" placeholder="Marco" required>
+            </div>
+            <div class="col-md-6">
+                <label for="LastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="LastName" placeholder="Red" required>
+            </div>
+            <div class="col-md-6 ">
+                <label for="emailinfo" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailinfo" placeholder="Example@gmail.com" required>
+            </div>
+            <div class="col-md-6">
+                <label for="phonenumber" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phonenumber" placeholder="+49 123 4567 890">
+            </div>
+            <div class="col-md-12 ">
+                <label for="questions" class="form-label">Questions?</label>
+                <textarea class="form-control" name="" id="qestions" cols="5" rows="2" placeholder="Type Here!" ></textarea>
+            </div>
+          <div class="container text-center">
+            <button id="contacts" class="btn btn-danger btn-lg">Submit</button>
+          </div>
+        </form>
+        
+       </div>
+    </div>
+
+    <div class="social-footer"> 
+        <a href=""> <img src="../img\icons8-facebook-circled.svg" alt=""> </a>
+        <a href=""> <img src="../img\icons8-instagram (1).svg" alt=""> </a>
+        <a href=""> <img src="../img\icons8-github.svg" alt=""> </a> 
+        <a href=""> <img src="../img\icons8-linkedin.svg" alt=""> </a> 
+        <a href=""> <img src="../img\icons8-spotify (1).svg" alt=""> </a> 
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
