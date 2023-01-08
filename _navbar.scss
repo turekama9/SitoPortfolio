@@ -6,6 +6,7 @@
     height: 70px;
     background-color: #c44536;
     display: flex;
+   
     justify-content: space-between;
     align-content: center;
    
@@ -16,34 +17,62 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    margin-right: 20px;
+    
    
 }
 
 .nav-branding {
     font-size: 2rem;
-    font-family:  "kanit", Arial, Helvetica, sans-serif;
+    font-family: "Press Start 2P", Helvetica, sans-serif;
     text-decoration: none;
-    margin-left: 10px;
-    
+    margin-left: 20px;
+    color: white;
+    transition: 0.7s;
+    text-decoration: none;
+ }
+ .nav-branding:hover{
+    transform: scale(1.1);
+    color: white;
+   
 }
 
-.nav-link {
-    transition: 0.7s ease;
-    font-family:  "kanit", Arial, Helvetica, sans-serif;
+.nav-branding:visited{
+    color: white;
 }
+
+
+.nav-link {
+    transition: 0.7s ;
+    font-family:   "Press Start 2P", Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+  
+ }
+
+ .nav-link:hover{
+   transform: scale(1.2);
+   color: white;
+
+ }
+
+ .nav-link:visited{
+    color: white;
+ }
 
 
 
 .hamburger {
     display: none;
     cursor: pointer;
+   
 }
 
 .bar {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     margin: 5px auto;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
