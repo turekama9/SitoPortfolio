@@ -1,11 +1,11 @@
 .btn {
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 14px;
   background-color: #c44536;
   font-family:  "kanit", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  padding: 10 10px;
+  padding: 5 5px;
   color: rgb(255, 255, 255);
   &:hover {
     transform: scale(1.2);
@@ -13,7 +13,9 @@
     color: #ffffff;;
   }
 
-
+.container {
+  margin-bottom: calc(200px + 2em);
+}
 
 
 }
@@ -22,9 +24,10 @@
   display: flex;
   justify-content:space-around;
   align-items: center;
+ 
   img {
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
   }
 }
 

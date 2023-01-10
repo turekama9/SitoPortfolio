@@ -76,15 +76,28 @@ body{
   }
 
   .contatti .container {
-    margin-top: 100px;
+    margin-top: 80px;
 
 
+  }
+
+  .contatti {
+    font-family: "Press Start 2P", Helvetica, sans-serif;
+   
+    
+  }
+
+  .contat {
+    font-family: "Press Start 2P", Helvetica, sans-serif;
+   
+    text-align: center;
+    margin-top: 20px;
   }
  
   
   header .container {
     
-    padding-top: 117px;
+    padding-top: 15px;
   }
 
 
@@ -124,11 +137,13 @@ body{
      width: 60%;
     height: 40%;
      
-    
-  
+}
+
+.contatti .container {
+  margin-top: 100px;
 
 
-  }
+}
 
   .title {
       position: absolute;
@@ -188,6 +203,12 @@ body{
 
     }
  
+    .contatti .container {
+      margin-top: 20px;
+    
+    
+    }
+
     .Profile {
       margin: auto;
       max-width: 95%;
