@@ -154,6 +154,10 @@
   width: 100%;
 }
 
+.social-img {
+  height: 37px;
+}
+
 * {
   margin: 0;
   padding: 0;
