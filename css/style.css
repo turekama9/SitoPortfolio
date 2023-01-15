@@ -290,7 +290,7 @@ header .container {
 @media screen and (max-width: 480px) {
   .img1 {
     position: absolute;
-    top: 400px;
+    top: 350px;
     left: 40px;
     width: 300px;
     height: 300px;
@@ -298,7 +298,7 @@ header .container {
   }
   .title {
     position: absolute;
-    top: 130px;
+    top: 100px;
     left: 13px;
     font-size: 45px;
     line-height: 1.3;
